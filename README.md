@@ -1,4 +1,4 @@
-# plantuml-ejemplo
+# dds-plantuml-ejemplo
 Ejemplo de uso de la herramienta plantUML en un readme de GitHub
 
 ![ejemplo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/RaniAgus/plantuml-ejemplo/master/ejemplo.puml)
@@ -41,6 +41,10 @@ Por ejemplo:
 ```
 
 Al principio del README se encuentra insertada esta misma imagen.
+
+## Requisitos
+
+Esta solución funciona solamente para repositorios públicos, ya que el proxy de PlantUML necesita permisos para acceder al raw del archivo puml desde fuera.
 
 ## Créditos
 
