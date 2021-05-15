@@ -1,5 +1,5 @@
 # dds-plantuml-ejemplo
-Ejemplo de uso de la herramienta [plantUML](http://www.plantuml.com/plantuml/uml/SoWkIImgAStDuU9oICrB0J80) en un readme de GitHub
+Ejemplo de uso de la herramienta [plantUML](https://plantuml.com/es/class-diagram) en un readme de GitHub
 
 ![guia](https://user-images.githubusercontent.com/677436/115094178-08fd6d80-9ef3-11eb-8bea-ce64f9c34eef.png)
 
