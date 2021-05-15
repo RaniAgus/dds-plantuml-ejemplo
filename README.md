@@ -41,6 +41,7 @@ Por ejemplo:
 ```
 
 Resultado:
+
 ![ejemplo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/RaniAgus/plantuml-ejemplo/master/ejemplo.puml)
 
 ## Requisitos
