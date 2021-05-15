@@ -3,6 +3,14 @@ Ejemplo de uso de la herramienta [plantUML](http://www.plantuml.com/plantuml/uml
 
 ![guia](https://user-images.githubusercontent.com/677436/115094178-08fd6d80-9ef3-11eb-8bea-ce64f9c34eef.png)
 
+## Limitaciones
+
+Esta solución funciona solamente para repositorios públicos, ya que el proxy de PlantUML necesita permisos para acceder al raw del archivo puml desde fuera.
+
+## Créditos
+
+Este método fue extraído del siguiente comentario en StackOverflow: https://stackoverflow.com/a/32771815/14089741
+
 ## Pasos a seguir
 
 ### Paso 1
@@ -43,11 +51,3 @@ Por ejemplo:
 Resultado:
 
 ![ejemplo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/RaniAgus/plantuml-ejemplo/master/ejemplo.puml)
-
-## Requisitos
-
-Esta solución funciona solamente para repositorios públicos, ya que el proxy de PlantUML necesita permisos para acceder al raw del archivo puml desde fuera.
-
-## Créditos
-
-Este método fue extraído del siguiente comentario en StackOverflow: https://stackoverflow.com/a/32771815/14089741
