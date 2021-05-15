@@ -1,7 +1,7 @@
 # dds-plantuml-ejemplo
-Ejemplo de uso de la herramienta plantUML en un readme de GitHub
+Ejemplo de uso de la herramienta [plantUML](http://www.plantuml.com/plantuml/uml/SoWkIImgAStDuU9oICrB0J80) en un readme de GitHub
 
-![ejemplo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/RaniAgus/plantuml-ejemplo/master/ejemplo.puml)
+![guia](https://user-images.githubusercontent.com/677436/115094178-08fd6d80-9ef3-11eb-8bea-ce64f9c34eef.png)
 
 ## Pasos a seguir
 
@@ -40,7 +40,8 @@ Por ejemplo:
 ![ejemplo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/RaniAgus/plantuml-ejemplo/master/ejemplo.puml)
 ```
 
-Al principio del README se encuentra insertada esta misma imagen.
+Resultado:
+![ejemplo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/RaniAgus/plantuml-ejemplo/master/ejemplo.puml)
 
 ## Requisitos
 
