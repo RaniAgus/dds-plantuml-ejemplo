@@ -2,7 +2,7 @@
 Ejemplo de uso de la herramienta 
 [plantUML](https://plantuml.com/es/class-diagram) en un readme de GitHub
 
-![ejemplo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/RaniAgus/plantuml-ejemplo/d164f69b39ea5a5b125bf1cee13acd15718cd5a9/ejemplo.puml)
+![ejemplo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/RaniAgus/plantuml-ejemplo/master/ejemplo.puml)
 
 ## Pasos a seguir
 ### Paso 1
@@ -14,7 +14,7 @@ https://raw.githubusercontent.com/{OWNER}/{BRANCH}/{COMMIT}/{RUTA_ARCHIVO}.puml
 
 Por ejemplo:
 ```
-https://raw.githubusercontent.com/RaniAgus/plantuml-ejemplo/d164f69b39ea5a5b125bf1cee13acd15718cd5a9/ejemplo.puml
+https://raw.githubusercontent.com/RaniAgus/plantuml-ejemplo/master/ejemplo.puml
 ```
 #### Nota sobre repositorios privados
 
@@ -26,7 +26,7 @@ https://raw.githubusercontent.com/{OWNER}/{REPO}/{BRANCH}/{RUTA_ARCHIVO}.puml?to
 ```
 Estos tokens se generan por cada commit, por lo que para que nuestra solución
 perdure hay que cambiar el campo `BRANCH` por el hash del commit 
-correspondiente y agregar el `TOKEN` (y acordarse de irlo actualizando).
+correspondiente y agregar el `TOKEN` (y acordarse de irlos actualizando).
 
 La opción más sencilla es, desde GitHub, ir al archivo en el commit correcto y
 de ahí copiar el link al raw del archivo. Podés encontrar al final del readme 
@@ -41,7 +41,7 @@ http://www.plantuml.com/plantuml/proxy?cache=no&src={LINK_RAW}
 ```
 Por ejemplo:
 ```
-http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/RaniAgus/plantuml-ejemplo/d164f69b39ea5a5b125bf1cee13acd15718cd5a9/ejemplo.puml
+http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/RaniAgus/plantuml-ejemplo/master/ejemplo.puml
 ```
 ### Paso 3
 
@@ -52,7 +52,7 @@ Pegar esa URL como imagen en el README.md, en formato Markdown:
 
 Por ejemplo:
 ```
-![ejemplo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/RaniAgus/plantuml-ejemplo/d164f69b39ea5a5b125bf1cee13acd15718cd5a9/ejemplo.puml)
+![ejemplo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/RaniAgus/plantuml-ejemplo/master/ejemplo.puml)
 ```
 El resultado es el que está 
 [al principio de este readme](#dds-plantuml-ejemplo).
