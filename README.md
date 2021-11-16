@@ -9,8 +9,10 @@ Ejemplo de uso de la herramienta
 
 Obtener la URL hacia el raw del archivo PlantUML, la cual tiene el formato:
 ```
-https://raw.githubusercontent.com/{OWNER}/{BRANCH}/{COMMIT}/{RUTA_ARCHIVO}.puml
+https://raw.githubusercontent.com/{OWNER}/{REPO}/{BRANCH}/{COMMIT}?/{RUTA_ARCHIVO}.puml
 ```
+_El commit es opcional. Si no se incluye, se toma por defecto el último
+commit en la branch._
 
 Por ejemplo:
 ```
@@ -19,10 +21,10 @@ https://raw.githubusercontent.com/RaniAgus/plantuml-ejemplo/main/ejemplo.puml
 #### Nota sobre repositorios privados
 
 Si el archivo plantuml se encuentra en un repo privado, para acceder al raw se 
-necesita de un token que se agrega al final del link en forma de query, por lo
-que el link quedaría así:
+necesita de un token que se agrega al final del link en forma de query param, 
+por lo que el link quedaría así:
 ```
-https://raw.githubusercontent.com/{OWNER}/{REPO}/{BRANCH}/{RUTA_ARCHIVO}.puml?token={TOKEN}
+https://raw.githubusercontent.com/{OWNER}/{REPO}/{BRANCH}/{COMMIT}?/{RUTA_ARCHIVO}.puml?token={TOKEN}
 ```
 Estos tokens se generan por cada commit, por lo que para que nuestra solución
 perdure hay que cambiar el campo `BRANCH` por el hash del commit 
@@ -56,6 +58,7 @@ Por ejemplo:
 ```
 El resultado es el que está 
 [al principio de este readme](#dds-plantuml-ejemplo).
+
 ## Cómo acceder al raw de un archivo
 
 1. Ir a la sección "commits" del repo:
@@ -70,7 +73,8 @@ El resultado es el que está
 
 ![image](https://user-images.githubusercontent.com/39303639/119248910-cfabc380-bb6a-11eb-95de-d1c5bd3c3054.png)
 
-Esto nos va a llevar al mismo link que vamos a necesitar para el [paso 1](#paso-1).
+Esto nos va a llevar al mismo link que vamos a necesitar para el 
+[paso 1](#paso-1).
 
 ## Créditos
 
