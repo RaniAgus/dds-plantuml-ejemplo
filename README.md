@@ -9,10 +9,8 @@ Ejemplo de uso de la herramienta
 
 Obtener la URL hacia el raw del archivo PlantUML, la cual tiene el formato:
 ```
-https://raw.githubusercontent.com/{OWNER}/{REPO}/{BRANCH}/{COMMIT}?/{RUTA_ARCHIVO}.puml
+https://raw.githubusercontent.com/{OWNER}/{REPO}/{BRANCH_OR_COMMIT}/{PATH_TO_FILE}.puml
 ```
-_El commit es opcional. Si no se incluye, se toma por defecto el último
-commit en la branch._
 
 Por ejemplo:
 ```
@@ -24,11 +22,10 @@ Si el archivo plantuml se encuentra en un repo privado, para acceder al raw se
 necesita de un token que se agrega al final del link en forma de query param, 
 por lo que el link quedaría así:
 ```
-https://raw.githubusercontent.com/{OWNER}/{REPO}/{BRANCH}/{COMMIT}?/{RUTA_ARCHIVO}.puml?token={TOKEN}
+https://raw.githubusercontent.com/{OWNER}/{REPO}/{BRANCH_OR_COMMIT}/{PATH_TO_FILE}.puml?token={TOKEN}
 ```
 Estos tokens se generan por cada commit, por lo que para que nuestra solución
-perdure hay que cambiar el campo `BRANCH` por el hash del commit 
-correspondiente y agregar el `TOKEN` (y acordarse de irlos actualizando).
+perdure hay que acordarse de ir actualizando ese `TOKEN`.
 
 La opción más sencilla es, desde GitHub, ir al archivo en el commit correcto y
 de ahí copiar el link al raw del archivo. Podés encontrar al final del readme 
