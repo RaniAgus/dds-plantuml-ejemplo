@@ -2,7 +2,7 @@
 Ejemplo de uso de la herramienta 
 [plantUML](https://plantuml.com/es/class-diagram) en un readme de GitHub
 
-![ejemplo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/RaniAgus/plantuml-ejemplo/main/ejemplo.puml)
+![ejemplo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/RaniAgus/dds-plantuml-ejemplo/main/ejemplo.puml)
 
 ## Pasos a seguir
 ### Paso 1
@@ -16,7 +16,7 @@ commit en la branch._
 
 Por ejemplo:
 ```
-https://raw.githubusercontent.com/RaniAgus/plantuml-ejemplo/main/ejemplo.puml
+https://raw.githubusercontent.com/RaniAgus/dds-plantuml-ejemplo/main/ejemplo.puml
 ```
 #### Nota sobre repositorios privados
 
@@ -43,7 +43,7 @@ http://www.plantuml.com/plantuml/proxy?cache=no&src={LINK_RAW}
 ```
 Por ejemplo:
 ```
-http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/RaniAgus/plantuml-ejemplo/main/ejemplo.puml
+http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/RaniAgus/dds-plantuml-ejemplo/main/ejemplo.puml
 ```
 ### Paso 3
 
@@ -54,7 +54,7 @@ Pegar esa URL como imagen en el README.md, en formato Markdown:
 
 Por ejemplo:
 ```
-![ejemplo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/RaniAgus/plantuml-ejemplo/main/ejemplo.puml)
+![ejemplo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/RaniAgus/dds-plantuml-ejemplo/main/ejemplo.puml)
 ```
 El resultado es el que está 
 [al principio de este readme](#dds-plantuml-ejemplo).
