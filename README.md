@@ -24,12 +24,11 @@ por lo que el link quedaría así:
 ```
 https://raw.githubusercontent.com/{OWNER}/{REPO}/{BRANCH_OR_COMMIT}/{PATH_TO_FILE}.puml?token={TOKEN}
 ```
-Estos tokens se generan por cada commit, por lo que para que nuestra solución
-perdure hay que acordarse de ir actualizando ese `TOKEN`.
+Estos tokens se generan por cada commit y vencen a los pocos días, por lo que
+no es una solución viable.
 
-La opción más sencilla es, desde GitHub, ir al archivo en el commit correcto y
-de ahí copiar el link al raw del archivo. Podés encontrar al final del readme 
-una [mini guía de cómo hacerlo](#cómo-acceder-al-raw-de-un-archivo).
+Una alternativa es subir un [Secret Gist](https://gist.github.com/mine), ya 
+que cualquier persona que tenga el link puede acceder a él sin ningún token.
 
 ### Paso 2
 
