@@ -1,6 +1,6 @@
 # dds-plantuml-ejemplo
-Ejemplo de uso de la herramienta 
-[plantUML](https://plantuml.com/es/class-diagram) en un readme de GitHub
+Cómo embeber un diagrama de
+[plantuml](https://plantuml.com/es/class-diagram) en un README desde código.
 
 ![ejemplo](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/RaniAgus/dds-plantuml-ejemplo/main/ejemplo.puml)
 
