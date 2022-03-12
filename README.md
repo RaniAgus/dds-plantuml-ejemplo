@@ -27,8 +27,9 @@ https://raw.githubusercontent.com/{OWNER}/{REPO}/{BRANCH_OR_COMMIT}/{PATH_TO_FIL
 Estos tokens se generan por cada commit y vencen a los pocos días, por lo que
 no es una solución viable.
 
-Una alternativa es subir un [Secret Gist](https://gist.github.com/mine), ya 
-que cualquier persona que tenga el link puede acceder a él sin ningún token.
+Una alternativa es subir un [secret Gist](https://gist.github.com/mine), ya 
+que cualquier persona que tenga el link puede acceder a él sin ningún token,
+aunque no va a ser visible desde tu perfil.
 
 ### Paso 2
 
