@@ -1,7 +1,33 @@
 @startuml Example
-Class01 <|-- Class02
-Class03 *-- Class04
-Class05 o-- Class06
-Class07 .. Class08
-Class09 -- Class10
+interface CondicionIVA {
+  impuesto(monto)
+}
+
+class ConsumidorFinal implements CondicionIVA {
+  impuesto(monto)
+}
+
+class ResponsableInscripto implements CondicionIVA {
+  impuesto(monto)
+}
+
+class ResponsableNoInscripto implements CondicionIVA {
+  impuesto(monto)
+}
+
+class Cliente {
+  saldo
+  comprar(producto)
+}
+
+Cliente --> "1" CondicionIVA
+Cliente ..> Producto 
+
+class Producto {
+  precio()
+}
+
+class ProductoEspecial implements Producto {
+  precio()
+}
 @enduml
