@@ -9,7 +9,7 @@ Cómo embeber un diagrama de
 
 Obtener la URL hacia el [raw](#cómo-acceder-al-raw-de-un-archivo) del archivo PlantUML, la cual tiene el formato:
 ```
-https://raw.githubusercontent.com/{OWNER}/{REPO}/{BRANCH_OR_COMMIT}/{PATH_TO_FILE}.puml
+https://raw.githubusercontent.com/{OWNER}/{REPO}/{BRANCH}/{PATH_TO_FILE}.puml
 ```
 
 También puede acceder moviéndose hacia el archivo en cuestión y haciendo 
@@ -28,7 +28,7 @@ Si el archivo plantuml se encuentra en un repo privado, para acceder al raw se
 necesita de un token que se agrega al final del link en forma de query param, 
 por lo que el link quedaría así:
 ```
-https://raw.githubusercontent.com/{OWNER}/{REPO}/{BRANCH_OR_COMMIT}/{PATH_TO_FILE}.puml?token={TOKEN}
+https://raw.githubusercontent.com/{OWNER}/{REPO}/{COMMIT}/{PATH_TO_FILE}.puml?token={TOKEN}
 ```
 Estos tokens se generan por cada commit y vencen a los pocos días, por lo que
 no es una solución recomendable.
