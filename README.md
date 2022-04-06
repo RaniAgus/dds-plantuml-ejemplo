@@ -7,7 +7,7 @@ Cómo embeber un diagrama de
 ## Pasos a seguir
 ### Paso 1
 
-Obtener la URL hacia el raw del archivo PlantUML, la cual tiene el formato:
+Obtener la URL hacia el [raw](#cómo-acceder-al-raw-de-un-archivo) del archivo PlantUML, la cual tiene el formato:
 ```
 https://raw.githubusercontent.com/{OWNER}/{REPO}/{BRANCH_OR_COMMIT}/{PATH_TO_FILE}.puml
 ```
