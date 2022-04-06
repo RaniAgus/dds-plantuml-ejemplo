@@ -12,10 +12,16 @@ Obtener la URL hacia el [raw](#cómo-acceder-al-raw-de-un-archivo) del archivo P
 https://raw.githubusercontent.com/{OWNER}/{REPO}/{BRANCH_OR_COMMIT}/{PATH_TO_FILE}.puml
 ```
 
+También puede acceder moviéndose hacia el archivo en cuestión y haciendo 
+click en `View raw`:
+
+![image](https://user-images.githubusercontent.com/39303639/119248910-cfabc380-bb6a-11eb-95de-d1c5bd3c3054.png)
+
 Por ejemplo:
 ```
 https://raw.githubusercontent.com/RaniAgus/dds-plantuml-ejemplo/main/ejemplo.puml
 ```
+
 #### Nota sobre repositorios privados
 
 Si el archivo plantuml se encuentra en un repo privado, para acceder al raw se 
@@ -25,7 +31,7 @@ por lo que el link quedaría así:
 https://raw.githubusercontent.com/{OWNER}/{REPO}/{BRANCH_OR_COMMIT}/{PATH_TO_FILE}.puml?token={TOKEN}
 ```
 Estos tokens se generan por cada commit y vencen a los pocos días, por lo que
-no es una solución viable.
+no es una solución recomendable.
 
 Una alternativa es subir un [secret Gist](https://gist.github.com/mine), ya 
 que cualquier persona que tenga el link puede acceder a él sin ningún token,
@@ -56,22 +62,6 @@ Por ejemplo:
 El resultado es el que está 
 [al principio de este readme](#dds-plantuml-ejemplo).
 
-## Cómo acceder al raw de un archivo
-
-1. Ir a la sección "commits" del repo:
-
-![image](https://user-images.githubusercontent.com/39303639/119248270-6b870080-bb66-11eb-8787-98c5e91818d1.png)
-
-2. Buscar el commit y hacer en `<>` para ver el estado del repo en ese commit:
-
-![image](https://user-images.githubusercontent.com/39303639/119248857-54e2a880-bb6a-11eb-84fe-cbd8631bc1e0.png)
-
-3. Moverse hacia el archivo en cuestión y hacer click en `View raw`:
-
-![image](https://user-images.githubusercontent.com/39303639/119248910-cfabc380-bb6a-11eb-95de-d1c5bd3c3054.png)
-
-Esto nos va a llevar al mismo link que vamos a necesitar para el 
-[paso 1](#paso-1).
 
 ## Créditos
 
