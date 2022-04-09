@@ -27,7 +27,7 @@ class Producto {
   precio()
 }
 
-class ProductoEspecial implements Producto {
+class ProductoEspecial extends Producto {
   precio()
 }
 @enduml
